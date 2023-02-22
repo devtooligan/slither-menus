@@ -47,10 +47,10 @@ selectprinters() {
         function-id "Print the 4 byte signature of the functions." off
         data-dependency "Print the data dependencies of the variables for all functions for all contracts including parents." off
         slithir-ssa "Print the slithIR representation of the functions (SSA version)" off
-        inheritance-graph "Export a graph showing the inheritance interaction between the contracts to a DOT file ⚫ 📂." off
-        cfg "Export the control flow graph of each function to a DOT file ⚫ 📂." off
-        call-graph "Export the call-graph of the contracts to a DOT file ⚫ 📂. " off
-        dominator "Export the dominator tree of each function to a DOT file ⚫ 📂." off
+        inheritance-graph "Export a graph showing the inheritance interaction between the contracts to a DOT file 📂." off
+        cfg "Export the control flow graph of each function to a DOT file 📂." off
+        call-graph "Export the call-graph of the contracts to a DOT file 📂. " off
+        dominator "Export the dominator tree of each function to a DOT file 📂." off
         slithir "Print the slithIR representation of the functions. 🚧 WIP" off
         evm "Print the EVM representation of the functions. 🚧 Needs dep installed" off
         echidna "This printer is meant to improve Echidna code coverage. 🚧 WIP - not yet used by Echidna." off
